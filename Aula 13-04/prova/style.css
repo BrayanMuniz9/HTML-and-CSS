@@ -1,0 +1,122 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: fixed;
+    background-color: rgb(235, 235, 235);
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+
+header, footer{
+    margin: auto auto;
+    border: solid rgb(62, 62, 62) 2px;
+    text-align: center;
+    border-radius: 0px;
+    background-color: white;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+nav li{
+    width: 90px;
+    padding: 7px;
+    display: inline-block;
+    border: solid black 1px;
+    margin: auto auto;
+    border-radius: 3px;
+    background-color: rgb(220, 220, 220);
+}
+
+nav ul{
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+.nav-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav ul :hover{
+    transition: 0.5;
+    background-color: rgb(148, 148, 148);
+}
+
+section {
+    border: solid 2px rgb(61, 61, 61);
+    padding: 25px 25px;
+    margin: auto auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+input[type=text], input[type=email] {
+    width: 60%;
+    padding: 5px 2px;
+    border: 01px solid grey;
+    border-radius: 5px;
+}
+
+form {
+    line-height: 2.3;
+}
+
+figure {
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+}
+
+figcaption {
+    border: solid 2px black;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 10px 10px 0px;
+    background-color: rgb(220, 220, 220);
+    font-weight: 700;
+    
+}
+
+img {
+    border: solid 2px black;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+div a {
+    color: black;
+    text-decoration: none;
+}
+
+div a figcaption:hover {
+    transition: 0.5;
+    background-color: rgb(148, 148, 148);
+}
+
+input[type=submit] {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}

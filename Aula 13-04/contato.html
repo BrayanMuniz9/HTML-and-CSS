@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="stylecontato.css">
+    <link rel="stylesheet" href="estilogeral.css">
+</head>
+<body>
+    <header>
+        <h2>Projeto Aplicações para Internet</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Informações pessoais</legend><br>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" id="nome"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email"><br><br>
+                    Sexo:<br>
+                    <input type="radio" name="masc" id="masc">
+                    <label for="masc">Masculino</label><br>
+                    <input type="radio" name="fem" id="fem">
+                    <label for="fem">Feminino</label><br><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Informações de contato</legend><br>
+                    <label for="assunto">Assunto:</label><br>
+                    <select name="assunto" id="assunto">
+                        <option value="selectassunto" selected>Selecione um assunto:</option>
+                        <option value="1">1</option>
+                    </select><br><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br><br>
+                    Preferencia de contato:<br>
+                    <input type="checkbox" name="email" id="email">
+                    <label for="email">Email</label><br>
+                    <input type="checkbox" name="telefone" id="telefone">
+                    <label for="telefone">Telefone</label><br><br>
+                </fieldset><br>
+                <input type="submit" value="Enviar">
+            </form><br>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2023
+    </footer>
+</body>
+</html>

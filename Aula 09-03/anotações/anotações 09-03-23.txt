@@ -1,0 +1,15 @@
+LINGUAGEM HTML
+o simbolo ! ele é uma ferramenta que ja vem um codigo base de html
+azul escuro = tag
+azul claro = atributo
+laranja = é o valor que coloca no atributo
+CARACTERISTICAS VISUAIS
+<p> paragrafo
+<h1(etc)> titulo 
+<img> imagem
+lista ornada <ol> lista não ordenada <ul>
+
+CODIGOS VS CODE
+
+ALT Z
+SHIFT + ALT + SETA

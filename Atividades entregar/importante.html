@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemensagem</title>
+    <style>
+      body {
+        background-color: rgb(219, 219, 219);
+        background-image: url(https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?w=2000);
+      }
+
+      main {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      div {
+        padding-bottom: 100px;
+      }
+      .button-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+      }
+      
+      .normal-button {
+          padding: 10px 20px;
+          background-color: rgb(0, 0, 0);
+          border: none;
+          border-radius: 4px;
+          text-align: center;
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+          margin-right: 100px;
+      }
+      
+      .fake-button {
+          position: absolute;
+          left: 700px;
+          padding: 10px 20px;
+          background-color: rgb(0, 0, 0);
+          border: none;
+          border-radius: 4px;
+          text-align: center;
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+      }
+      h3 {
+        text-align: center;
+        margin-top: 200px;
+      }
+      </style>
+      
+      <script>
+        function moverBotao() {
+          var botao = document.querySelector('.fake-button');
+          var novaPosicaoTop = Math.random() * (window.innerHeight - 50);
+          var novaPosicaoLeft = Math.random() * (window.innerWidth - 150);
+          botao.style.top = novaPosicaoTop + 'px';
+          botao.style.left = novaPosicaoLeft + 'px';
+        }
+      </script>
+
+</head>
+<body>
+  <main>
+    <h3>Cuzinho Hoje?</h3>
+    <div class="button-container">
+      <a href="https://www.youtube.com/watch?v=TZz5wxFsLfQ"><button class="normal-button"><b>Sim</b></button></a>
+      <button class="fake-button" onmouseover="moverBotao()"><b>Não</b></button>
+    </div>
+  </main>
+</body>
+</html>

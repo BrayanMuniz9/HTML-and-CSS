@@ -1,0 +1,15 @@
+Crie uma pagina html
+
+Com
+uma região de cabeçalho
+uma área de navegação
+uma área principal
+um rodapé
+
+da área principal crie duas seções
+cada seção deve ter
+ -um titulo (h4)
+ -dois paragrafos de 20 plavaras
+ -uma regiao de figura com uma imagem de e uma legenda
+
+a imagem deve ser ser um hyperlink que aponta para www.google.com

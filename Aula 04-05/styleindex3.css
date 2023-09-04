@@ -1,0 +1,50 @@
+body {
+    margin: auto auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 249, 249);
+    font-size: 12pt;
+    width: 50%;
+}
+
+section {
+    margin: 10px;
+}
+
+
+img {
+    border: solid 3px rgb(86, 86, 86);
+    box-shadow: -10px 20px rgb(211, 211, 211);
+}
+
+header, footer {
+    margin: 0px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
+
+article {
+    margin: 25px;
+}
+.imgart {
+    margin: 0px;
+}
+.bottom {
+    width: 600px;
+}
+
+.area1 {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.area2 {
+    display: flex;
+}
+

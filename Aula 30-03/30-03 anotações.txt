@@ -1,0 +1,57 @@
+LINGUAGEM HTML --------
+o simbolo ! ele é uma ferramenta que ja vem um codigo base de html
+azul escuro = tag
+azul claro = atributo
+laranja = é o valor que coloca no atributo
+
+Tag container, é uma tag que abre e fecha. exemplo <p> </p>
+Tag auto fechavel, que não precisa fechar ela, ela só abre. exemplo <br> <img>
+
+CARACTERISTICAS VISUAIS
+<p> paragrafo
+<h1(etc)> titulo 
+<img> imagem
+lista ornada <ol> lista não ordenada <ul> <li> item da lista
+
+VOCE PODE DAR TAGS PARA AS DIVISÕES PARA AS PAGINAS
+<div id="header">
+</div>
+
+TAGS SEMANTICAS
+<section>
+<header>
+<nav>
+<main>
+<footer>
+
+Tem como colocar classes em varias tags
+<section class=>
+e tambem tem como colocar ID mas somente em 1 tag
+
+Formularios https://contato-kappa.vercel.app/contato.html
+<input type="radio" name="transp" value="bus" (id="fds" linka com o label)> (type é o tipo de formulario, name é o grupo dele, value é como se fosse uma descrição)
+
+CSS
+border
+margi
+padding
+section.caixa (muda só as sections da classe caixa)
+.caixa (muda tudo que tem a class caixa)
+o # representa o id da tag
+
+ANOTAÇÕES VS CODE ---------
+ALT Z
+SHIFT + ALT + SETA
+CNTRL + ; 
+END (vai para o final)
+
+Facilitar a vida
+sinal de > significa dentro da tag
+usa o > com os sinais matematicos * +
+exemplo
+criar uma lista rapida = ul>li*4>a
+main>(p>lorem50)*8
+
+estudar tudo da aula 23-03
+APRENDER PHP (action)
+Estudar LABEL

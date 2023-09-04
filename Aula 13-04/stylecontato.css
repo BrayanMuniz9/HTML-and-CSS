@@ -1,0 +1,26 @@
+section {
+    border: solid rgb(190, 190, 190) 1px;
+    padding: 10px 10px;
+    max-width: 640px;
+    margin: auto auto;
+}
+
+input[type=submit] {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: auto auto;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+input[type=text], input[type=email], textarea, select {
+    padding: 8px 0px;
+    width: 100%;
+    border: 01px rgb(201, 201, 201) solid;
+    border-radius: 5px;
+
+}

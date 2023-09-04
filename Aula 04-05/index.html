@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            border: solid black 1px;
+            padding: 10px;
+            height: 180px;
+            overflow: auto;
+        }
+        div {
+            border: solid red 1px;
+            width: 150px;
+            height: 50px;
+        }
+        .divEmLinha {
+            display: inline;
+
+        }
+        .divEmBloco {
+            display: block;
+        }
+        .divInlineBlock {
+            display: inline-block;
+        }
+        .containerFlex {
+            display: flex;
+        }
+        .containerGrid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .itemFlutuante {
+            float: left;
+        }
+        .itemFlutuanteDireita {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h3>Sem display</h3>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <h3>Display Inline</h3>
+    <section>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, neque? Voluptas error dolorem minima ipsum vel ex, deleniti, numquam quo, soluta illum provident? Repellat impedit esse cupiditate exercitationem. Harum commodi, nulla inventore repellendus et, consectetur id iure odit dolorem corrupti quam, consequuntur optio eveniet dolore in? Quaerat quisquam cupiditate ratione reprehenderit! Corrupti vero, illum quod consectetur saepe debitis tempore laboriosam, id animi ea reiciendis quae neque laborum fugiat dicta pariatur? Iure, ipsum veritatis necessitatibus ipsam, obcaecati non assumenda error quae magnam eius, officia nemo sit iusto cumque impedit eum? Dolore ab eius voluptatem iure magni, expedita perferendis quis facilis blanditiis. Porro, quas consequatur. Sit, perspiciatis illo! In quibusdam, eligendi, quas ipsum nam dolores animi est earum molestias minima ex facere minus, illum excepturi vel iure quod non itaque repellendus veniam ipsa. Fuga, hic nobis? Cum, deserunt ratione? Illo, ad! Quam, voluptas labore ipsum maxime natus cum quaerat explicabo, tempora ratione accusantium quia exercitationem tenetur illo enim quasi sequi, atque dolorem ad at aliquam animi veniam nulla. Nemo perferendis quo repellat, deserunt officiis modi consequatur eaque at iusto dignissimos nam reiciendis distinctio provident doloremque enim, expedita vel qui saepe? Libero voluptatem dolorem possimus? Nostrum qui iure animi recusandae vitae, nesciunt dignissimos.</p>
+    </section>
+
+    <h3>Display Block</h3>
+    <section>
+        <div class="divEmBloco"></div>
+        <div class="divEmBloco"></div>
+        <div class="divEmBloco"></div>
+        <div class="divEmBloco"></div>
+        <div class="divEmBloco"></div>
+    </section>
+
+    <h3>Display Inline-Block</h3>
+    <section>
+        <div class="divInlineBlock"></div>
+        <div class="divInlineBlock"></div>
+        <div class="divInlineBlock"></div>
+        <div class="divInlineBlock"></div>
+        <div class="divInlineBlock"></div>
+    </section>
+
+    <h3>Display Flex</h3>
+    <section class="containerFlex">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <h3>Display Grid</h3>
+    <section class="containerGrid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <h3>Float</h3>
+    <section>
+        <div class="itemFlutuante"></div>
+        <div class="itemFlutuante"></div>
+        <div class="itemFlutuante"></div>
+        <div class="itemFlutuanteDireita"></div>
+        <div class="itemFlutuanteDireita"></div>
+    </section>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

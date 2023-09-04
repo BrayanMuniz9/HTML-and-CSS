@@ -1,0 +1,28 @@
+LINGUAGEM HTML --------
+o simbolo ! ele é uma ferramenta que ja vem um codigo base de html
+azul escuro = tag
+azul claro = atributo
+laranja = é o valor que coloca no atributo
+CARACTERISTICAS VISUAIS
+<p> paragrafo
+<h1(etc)> titulo 
+<img> imagem
+lista ornada <ol> lista não ordenada <ul> <li> item da lista
+
+VOCE PODE DAR TAGS PARA AS DIVISÕES PARA AS PAGINAS
+<div id="header">
+</div>
+
+TAGS SEMANTICAS
+<section>
+<header>
+<nav>
+<main>
+<footer>
+
+
+ANOTAÇÕES VS CODE ---------
+ALT Z
+SHIFT + ALT + SETA
+CNTRL + ; 
+END (vai para o final)
